@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: VarFont;
+  src: url(/assets/fonts/WorkSans-VariableFont_wght.ttf);
+}
+@font-face {
+  font-family: ItalicFont;
+  src: url(/assets/fonts/WorkSans-Italic-VariableFont_wght.ttf);
+}
+@font-face {
+  font-family: BoldFont;
+  src: url(/assets/fonts/static/WorkSans-Bold.ttf);
+}
+@font-face {
+  font-family: RegularFont;
+  src: url(/assets/fonts/static/WorkSans-Regular.ttf);
+}
+@font-face {
+  font-family: SemiFont;
+  src: url(/assets/fonts/static/WorkSans-SemiBold.ttf);
+}
+
+body {
+  font-family: VarFont;
+  line-height: 1.5;
+  background-color: hsl(275, 100%, 97%);
+}
+p {
+  color: hsl(292, 16%, 49%);
+}
+h4 {
+  font-family: RegularFont;
+  padding-right: 1rem;
+}
+body {
+  height: 100vh;
+  background-color: hsl(275, 100%, 97%);
+}
+.header-top {
+  background: url(/assets/images/background-pattern-desktop.svg);
+  background-size: cover;
+  height: 35vh;
+}
+.questions {
+  position: relative;
+  bottom: 5rem;
+  width: 90vw;
+  max-width: 620px;
+  margin: 0 auto;
+  padding: 2rem;
+  border-radius: 10px;
+  background-color: hsl(0, 100%, 100%);
+}
+@media screen and (max-width: 1000px) {
+  .header-top {
+    background: url(/assets/images/background-pattern-mobile.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .questions {
+    position: relative;
+    bottom: 7rem;
+  }
+}
+
+.title {
+  display: flex;
+  align-items: center;
+}
+.title h1 {
+  font-family: BoldFont;
+  font-size: 2rem;
+  padding-left: 1rem;
+}
+.question {
+  padding: 1rem 0rem;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+.question:hover {
+  color: hsl(293, 47%, 52%);
+  cursor: pointer;
+}
+
+.question:last-child {
+  border-bottom: 0;
+}
+
+.question-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.question-btn {
+  background-color: transparent;
+  outline: none;
+  border: none;
+  width: auto;
+}
+.question-text {
+  padding-top: 1rem;
+}
+button {
+  cursor: pointer;
+}
+button:focus {
+  outline: 2px solid hsl(292, 16%, 49%);
+  border-radius: 10%;
+}
+span {
+  width: 100%;
+  margin: 0 auto;
+}
+span img {
+  width: 1.5rem;
+}
+.question-text {
+  display: none;
+}
+.minus {
+  display: none;
+}
+.show-text .minus {
+  display: inline;
+}
+.show-text .question-text {
+  display: inline;
+}
+.show-text .plus {
+  display: none;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  font-family: VarFont;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
