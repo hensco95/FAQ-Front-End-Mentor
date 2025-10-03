@@ -36,8 +36,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Front End Mentor Solution](https://www.frontendmentor.io/solutions/responsive-faq-using-html-css-and-js-hQcRFwVT0D)
+- Live Site URL: [Live website](https://faqfm.netlify.app)
 
 ## My process
 
@@ -51,9 +51,9 @@ Users should be able to:
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Website - [Henry Seigbein](https://henryjs.netlify.app)
+- Frontend Mentor - [@hensco95](https://www.frontendmentor.io/profile/hensco95)
+- Twitter - [@ekiye_S](https://x.com/Ekiye_S)
 
 
 
